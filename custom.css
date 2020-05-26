@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    scroll-behavior: smooth;    
+    overflow-x: hidden;
+    font-family: 'Cabin', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#mjhead {
+    background: url("CiRCLE.png") no-repeat fixed top;
+    background-size: cover;
+    padding: 15%;
+}
+
+.imgfloat1{
+	width: 350x;
+	height: 350px;
+	box-sizing: border-box;
+	overflow: hidden;
+	transform: translatey(0px);
+    animation: float 2.5s ease-in-out infinite;
+    margin-left: 3vw;
+    display: flex;
+}
+
+.imgfloat2{
+	width: 200px;
+	height: 250px;
+	box-sizing: border-box;
+	overflow: hidden;
+	transform: translatey(0px);
+    animation: float 2.5s ease-in-out infinite;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+
+.imgfloat3{
+	width: 50x;
+	height: 50px;
+	box-sizing: border-box;
+	overflow: hidden;
+	transform: translatey(0px);
+    animation: float 2.5s ease-in-out infinite;
+    margin-left: 3vw;
+    display: flex;
+}
+
+
+.transbox h1 {
+    color: whitesmoke;
+    text-shadow: 3px 3px 5px rgb(165, 16, 16);
+}
+
+.transbox p{
+    color: whitesmoke;
+    text-shadow: 3px 3px 5px rgb(165, 16, 16);
+}
+
+.transbox h4{
+    color: whitesmoke;
+    text-shadow: 3px 3px 5px rgb(165, 16, 16);
+}
+
+.transbox a{
+    color: whitesmoke;
+    text-shadow: 3px 3px 5px rgb(165, 16, 16);
+    font-size: 1.5vw;
+}
+
+
+#information .p1 {
+    color: whitesmoke;
+    font-size: 4vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+#information {
+    margin-top: 2%;
+}
+#information h1 { 
+    color: whitesmoke;
+    margin-left: 2vw;
+}
+
+#pfolio {
+    padding: 2%;
+}
+
+#pfolio h1 {
+    color: black;
+}
+
+#pfolio a { 
+    color: black;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.column {
+    float: left;
+    width: 10%;
+    padding: 5px;
+  }
+  
+
+  #contact::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.size { 
+    width: 100px;
+    height: 80px;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
